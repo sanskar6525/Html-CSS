@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Flexbox is a one dimensional layout method for laying out items in rows or columns.  -->
+    <!-- Flexbox=Flexible+Box -->
+    <title>Flexbox</title>
+    <style>
+        .container{
+            width:100%;
+            height:544px;
+            border:2px solid red;
+            /* To initialize the container as flex */
+            display:flex; 
+
+            /* Flex properties for containers: */
+            /* flex direction is row by default */
+            flex-direction:row;
+            /* flex-direction: column;
+            flex-direction:row-reverse;
+            flex-direction:column-reverse;  */
+
+            /* flex wrap is nowrap by default */
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
+
+            /* short hand to set both the wrap type and flex direction at one go */
+            /* flex-flow: row-reverse wrap-reverse; */
+
+        
+            /* justify-content: center; */
+            /* this adds an equal space between content but no space beside the cornner blocks */
+            /* justify-content: space-between; */
+            /* this adds space equally between all gaps also beside corner elements */
+            /* justify-content:space-evenly; */
+            /* this adds gap considering each element at a time */
+            /* justify-content:space-around; */
+
+            /* it makes items alingned vertically center,bottom,top. BTW top is the default */
+            /* align-items:center; */
+            /* align-items:flex-end; */
+            /* align-items:flex-start; */
+
+            /* this gives a vertical space between items */
+            /* align-items: stretch; */
+
+        }
+        .item{
+            background-color: tomato;
+            border:2px solid green;
+            padding:3px;
+            margin:10px;
+            width:150px;
+            height:150px;
+        }
+        #item1{
+            /* to decide the placement of the item */
+            order:1;
+        }
+        #item2{
+            /* when flex direction is set to row, flex-basis will control width */
+            /* when flex direction is set to column, flex basis will control height */
+            flex-basis:120px;
+
+
+            order:2;
+        }
+        #item3{
+            align-self: center;
+            order:3;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Flexbox in depth.</h1>
+    <div class="container">
+        <div class="item" id="item1">First box</div>
+        <div class="item" id="item2">Second box</div>
+        <div class="item" id="item3">Third box</div>
+        <!-- <div class="item" id="item4">Fourth box</div>
+        <div class="item" id="item5">Fifth box</div>
+        <div class="item" id="item6">Sixth box</div> -->
+    </div>
+</body>
+</html>

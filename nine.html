@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element selector*/
+        p
+        {
+            color:blue;
+        }
+        h3
+        {
+            text-align:center;
+        }
+
+        /*Class Selector*/
+        .MakeMeViolet
+        {
+            color:violet;
+        }
+
+        /*Id selector*/
+        #MakeMeYellow
+        {
+            background-color:orangered;
+            color:yellow;
+        }
+
+        /*Group selector*/
+        span,footer
+        {
+            background-color: aqua;
+        }
+       
+    </style>
+</head>
+<body>
+    <h3 id="test1 test2">The CSS Selectors</h3>
+    <p id="test1">This is the first paragraph is to help understand CSS selectorss.</p>
+    <p class="MakeMeViolet">This is the second paragraph is to help understand CSS selectors.</p>
+    <p id="MakeMeYellow">This is the third paragraph is to help understand CSS selectors via id.</p>
+    <div>
+        <p class="MakeMeViolet">This is the fourth paragraph is to help understand CSS selectors.</p>
+    </div>
+    <span>This is span.</span>
+    <footer>This is the footer.</footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        p{
+            text-align:justify;
+        }
+        h3{
+            font-family: 'Honk', system-ui;
+            font-size:25px;
+        }
+        .container{
+            border:5px solid black;
+            width:1000px;
+            margin:30px auto;
+        }
+        .item{
+            border:3px solid grey;
+            padding:10px;
+            margin:10px;
+            background: rgb(21 203 44);
+        }
+        #fruits{
+            float:left;
+            width: 31%;
+        }
+        #computer{
+            float:left;
+            width: 31%;
+        }
+        #stationary{
+            float:right;
+            width: 31%;
+        }
+        #disclaimer{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3 style="text-align:center;">Fruits</h3>
+            <p class="para" id="fruitspara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi nesciunt labore necessitatibus officia ratione dolor possimus, atque nisi tempora ex quo excepturi repellendus ea nihil vitae ullam accusantium incidunt ad ab! Magnam, saepe dignissimos. Exercitationem aliquid voluptatem nemo hic.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3 style="text-align:center;">Stationary</h3>
+            <p class="para" id="stationarypara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi nesciunt labore necessitatibus officia ratione dolor possimus, atque nisi tempora ex quo excepturi repellendus ea nihil vitae ullam accusantium incidunt ad ab! Magnam, saepe dignissimos. Exercitationem aliquid voluptatem nemo hic.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3 style="text-align:center;">Computer</h3>
+            <p class="para" id="computerpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi nesciunt labore necessitatibus officia ratione dolor possimus, atque nisi tempora ex quo excepturi repellendus ea nihil vitae ullam accusantium incidunt ad ab! Magnam, saepe dignissimos. Exercitationem aliquid voluptatem nemo hic.</p>
+        </div>
+        <div id="disclaimer" class="item">
+            <h3>Disclaimer</h3>
+            <p class="para" id="disclaimerpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi nesciunt labore necessitatibus officia ratione dolor possimus, atque nisi tempora ex quo excepturi repellendus ea nihil vitae ullam accusantium incidunt ad ab! Magnam, saepe dignissimos. Exercitationem aliquid voluptatem nemo hic.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar{
+            background-color: #668f76;
+            border:3px solid black;
+            border-radius:20px;
+            height:50px;
+            padding-bottom:5px;
+        }
+        .navbar ul{
+            overflow:auto;
+        }
+        .navbar li{
+            list-style: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            float:left;
+            margin: 10px 20px;
+        }
+        .navbar li a{
+            /* padding:3px 3px; */
+            text-decoration: none;
+        }
+        .search{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            float:right;
+            margin:8px 50px;
+        }
+        #search{
+            border:2px solid greenyellow;
+            border-radius: 15px;
+        }
+        #search:hover{
+            border:2px solid red;
+        }
+        .navbar li a:hover{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
+                <div class="search">This is the search box:
+                    <input type="text" name="search" id="search">
+                </div>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>

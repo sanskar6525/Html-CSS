@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors and more designing</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        p{
+            text-align:justify;
+        }
+        .item{
+            border:3px solid grey;
+            padding:10px;
+            margin:10px;
+            background: rgb(21 203 44);
+        }
+        .container{
+            border:5px solid black;
+            width:1000px;
+            margin:30px auto;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            width:10px;
+        }
+        a:hover{
+            color: rgb(5, 0, 0);
+            background-color: rgb(238, 12, 12);
+        }
+        /* a:visited{
+            background-color: orange;
+        } */
+        a:active{
+            background-color:darkblue;
+        }
+        .btn{
+            font-family: 'Segoe UI', Tahoma, Geneva,
+             Verdana, sans-serif;
+            font-size:10px;
+            border: none;
+            cursor:pointer;
+            background-color: yellow;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3 style="text-align:center;">Fruits</h3>
+            <p class="para" id="fruitspara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium commodi nesciunt labore necessitatibus officia ratione dolor possimus, atque nisi tempora ex quo excepturi repellendus ea nihil vitae ullam accusantium incidunt ad ab! Magnam, saepe dignissimos. Exercitationem aliquid voluptatem nemo hic.</p>
+            <a href="https://www.codewithharry.com/videos/web-development-in-hindi-22/" target="_blank" class="btn">Buy this</a>
+            <button class="btn">Know more..</button>
+        </div>
+
+    </div>
+</body>
+</html>

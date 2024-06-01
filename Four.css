@@ -1,0 +1,42 @@
+#Title
+{
+    font-family: 'Pacifico', 'cursive';
+    font-weight: bold;
+    font-size:30px;
+    text-align: center;
+    color:greenyellow;
+    outline-color: black;
+}
+
+#A
+{
+    background-color:maroon;
+}
+#B
+{
+    background-color:yellow;
+}
+#C
+{
+    background-color:olive;
+}
+#D
+{
+    background-color:skyblue;
+}
+#E
+{
+    background-color:magenta;
+}
+#G
+{
+    background-color:darkslateblue;
+}
+#F
+{
+    background-color:turquoise;
+}
+#H
+{
+    background-color:rgb(9, 120, 116);
+}

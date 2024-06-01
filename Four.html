@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Four.css">
+</head>
+
+<body>
+    <h2 id="Title">This is for Forms Tutorial</h2>
+    <form action="backend.class">
+        <label for="name">Name:</label>
+        <div>
+            <!-- name attribute holds the name by which the backend will be able to recognize this value -->
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div id="A">
+            Class: <input type="text" name="myClass">
+        </div>
+        <br>
+        <div id="B">
+            EMail: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div id="C">
+            <input type="date" name="" id="">
+        </div>
+        <br>
+        <div id="D">
+            Are you above 18 years of age?<input type="checkbox" name="myElibility" checked>
+        </div>
+        <br>
+        <div id="E">
+            Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Others<input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <div id="F">
+            <label for="car">Select choice of car:</label>
+            <select name="myCar" id="car">
+                <option value="IND">Indica</option>
+                <option value="WAG">Wagenor</option>
+                <option value="SWI">Swift</option>
+                <option value="NA" selected>No Car</option>
+            </select>
+        </div>
+        <br>
+        <div id="G">
+            Write about your experience:
+            <br><textarea name="myText" col="10" rows="5"></textarea>
+        </div>
+        <br>
+        <div id="H">
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="RESET">
+        </div>
+    </form>
+</body>
+
+</html>

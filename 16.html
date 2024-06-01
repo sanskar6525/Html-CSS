@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div#, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        /* CSS positions: static(default), absolute, relative, fixed, sticky */
+        .container{
+            border:2px solid black;
+            background-color: khaki;
+            height: 200px;;
+        }
+        .box{
+            display:inline-block;
+            width:150px;
+            height:150px;
+            border:2px solid red;
+            margin:2px;
+        }
+        #box3{
+            display:inline;
+            border:2px solid red;
+            /* relative means relative to its normal position and will leave a gap at its normal position  */
+            position:relative;
+            top:20px;
+            left:25px; 
+            /* absolute means relative to the position of its first parent*/
+            /* position:absolute;
+            top:20px;
+            left:25px; */
+
+            /* fixed means position relative to the browser window and the position will remain fixed even after scrolling */
+            /* position:fixed;
+            right:100px; */
+
+            /* sticky means position will remain fixed even after scrolling */
+            /* position:sticky;
+            top:30px; */
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box2" id="box3"><span>Chat With Us</span></div>
+        <div class="box" id="box4">4</div>
+    </header>
+   
+</body>
+</html>
